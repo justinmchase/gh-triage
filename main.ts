@@ -5,7 +5,7 @@ const dismissCLosedType = new EnumType(["dismiss", "skip", "include"]);
 
 await new Command()
   .name("triage")
-  .version("0.1.3")
+  .version("0.1.4")
   .description("Triage your GitHub notifications.")
   .type("dismiss-closed", dismissCLosedType)
   .option(
