@@ -4,8 +4,9 @@ import { yellow } from "@std/fmt/colors";
 import {
   issue,
   pullRequest,
-  type PullRequestDismissClosed,
   release,
+  checkSuite,
+  type PullRequestDismissClosed,
 } from "./triage/mod.ts";
 
 const cmd = new Deno.Command("gh", { args: ["auth", "token"] });
@@ -53,6 +54,9 @@ for (const notification of notifications) {
       break;
     case "Release":
       await release(client, notification);
+      break;
+    case "CheckSuite":
+      await checkSuite(notification);
       break;
     default:
       console.log(`Unknown notification type: ${type}`);

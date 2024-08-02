@@ -9,6 +9,7 @@
       "jsr:@cliffy/prompt@^1.0.0-rc.5": "jsr:@cliffy/prompt@1.0.0-rc.5",
       "jsr:@cliffy/table@^1.0.0-rc.5": "jsr:@cliffy/table@1.0.0-rc.5",
       "jsr:@justinmchase/github-api@^0.5.2": "jsr:@justinmchase/github-api@0.5.2",
+      "jsr:@justinmchase/github-api@^0.5.3": "jsr:@justinmchase/github-api@0.5.3",
       "jsr:@justinmchase/serializable@^0.3.7": "jsr:@justinmchase/serializable@0.3.7",
       "jsr:@justinmchase/type@^0.2.2": "jsr:@justinmchase/type@0.2.2",
       "jsr:@std/assert@1.0.0-rc.2": "jsr:@std/assert@1.0.0-rc.2",
@@ -63,6 +64,14 @@
       },
       "@justinmchase/github-api@0.5.2": {
         "integrity": "60a9b2ff2b720dbab95ef0f200ad71ebcd686e175fc118e6ec71c9ec67435cd6",
+        "dependencies": [
+          "jsr:@justinmchase/serializable@^0.3.7",
+          "jsr:@std/async@^1.0.1",
+          "jsr:@std/log@^0.224.5"
+        ]
+      },
+      "@justinmchase/github-api@0.5.3": {
+        "integrity": "fb5f54bb8355ea260a8cdd59d61bd0dae10d2aba050c6e482272080c8ad93816",
         "dependencies": [
           "jsr:@justinmchase/serializable@^0.3.7",
           "jsr:@std/async@^1.0.1",
