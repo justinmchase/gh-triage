@@ -6,7 +6,7 @@ import {
 import { done, open, read } from "../actions/mod.ts";
 import { Column, Table } from "@cliffy/table";
 import { Select } from "@cliffy/prompt";
-import { black, gray, magenta } from "@std/fmt/colors";
+import { brightBlack, gray, magenta } from "@std/fmt/colors";
 import ellipsize from "npm:ellipsize@0.5.1";
 
 export async function issue(
@@ -16,7 +16,7 @@ export async function issue(
   const { subject, repository, reason } = notification;
   const { title, url, latest_comment_url } = subject;
   const { name, full_name, owner: { login } } = repository;
-  const repo = `${black(login)}/${magenta(name)}`;
+  const repo = `${brightBlack(login)}/${magenta(name)}`;
   const number = parseInt(url.split("/").pop()!);
 
   // todo: fetch issue comment

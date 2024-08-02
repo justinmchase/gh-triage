@@ -5,7 +5,7 @@ import {
 } from "@justinmchase/github-api";
 import { Select } from "@cliffy/prompt";
 import { Column, Table } from "@cliffy/table";
-import { black, magenta, yellow } from "@std/fmt/colors";
+import { brightBlack, magenta, yellow } from "@std/fmt/colors";
 
 export async function release(
   client: GitHubClient,
@@ -14,7 +14,9 @@ export async function release(
   const { id: threadId, subject, repository } = notification;
   const { title } = subject;
   const { full_name } = repository;
-  const repo = `${black(repository.owner.login)}/${magenta(repository.name)}`;
+  const repo = `${brightBlack(repository.owner.login)}/${
+    magenta(repository.name)
+  }`;
   const table: Table = new Table()
     .border(true)
     .columns([
