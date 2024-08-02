@@ -11,7 +11,7 @@ export async function approve(
   notification: GitHubNotification,
   pr: GitHubPullRequest,
 ) {
-  const { id: threadId, repository } = notification;
+  const { repository } = notification;
   const body = await Input.prompt({
     message: "Review message",
     default: pr.user.login === "dependabot[bot]"
@@ -24,9 +24,5 @@ export async function approve(
     pr,
     event: "APPROVE",
     body,
-  });
-  await api.notifications.thread.read({
-    client,
-    threadId,
   });
 }

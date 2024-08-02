@@ -20,6 +20,9 @@ import {
   yellow,
 } from "@std/fmt/colors";
 import { approve } from "../actions/approve.ts";
+import { read } from "../actions/read.ts";
+import { done } from "../actions/done.ts";
+import { open } from "../actions/open.ts";
 
 export type PullRequestDismissClosed = "dismiss" | "skip" | "include";
 export async function pullRequest(
@@ -27,7 +30,7 @@ export async function pullRequest(
   notification: GitHubNotification,
   dismissClosed: PullRequestDismissClosed,
 ) {
-  const { id: threadId, subject, repository } = notification;
+  const { id: threadId, subject, repository, reason } = notification;
   const { title, url } = subject;
   const { full_name } = repository;
   const number = parseInt(url.split("/").pop()!);
@@ -65,6 +68,7 @@ export async function pullRequest(
         ["state", mergeState],
         ["draft", pr.draft ? gray("yes") : green("no")],
         ["title", yellow(title)],
+        ["reason", gray(reason)],
         ["repo", repo],
         ["owner", cyan(pr.user.login)],
         ["comments", pr.comments],
@@ -103,25 +107,18 @@ export async function pullRequest(
       case "skip":
         break;
       case "read":
-        await api.notifications.thread.read({
-          client,
-          threadId,
-        });
+        await read(client, notification);
         break;
       case "done":
-        await api.notifications.thread.done({
-          client,
-          threadId,
-        });
+        await done(client, notification);
         break;
       case "approve":
         await approve(client, notification, pr);
+        await read(client, notification);
         break;
       case "review": {
-        const cmd = new Deno.Command("open", {
-          args: [`https://github.com/${full_name}/pull/${number}/files`],
-        });
-        await cmd.spawn();
+        await open(`https://github.com/${full_name}/pull/${number}/files`);
+        await read(client, notification);
         break;
       }
       default:

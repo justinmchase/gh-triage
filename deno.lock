@@ -4,21 +4,33 @@
     "specifiers": {
       "jsr:@cliffy/ansi@1.0.0-rc.5": "jsr:@cliffy/ansi@1.0.0-rc.5",
       "jsr:@cliffy/ansi@^1.0.0-rc.5": "jsr:@cliffy/ansi@1.0.0-rc.5",
+      "jsr:@cliffy/command@^1.0.0-rc.5": "jsr:@cliffy/command@1.0.0-rc.5",
+      "jsr:@cliffy/flags@1.0.0-rc.5": "jsr:@cliffy/flags@1.0.0-rc.5",
       "jsr:@cliffy/internal@1.0.0-rc.5": "jsr:@cliffy/internal@1.0.0-rc.5",
       "jsr:@cliffy/keycode@1.0.0-rc.5": "jsr:@cliffy/keycode@1.0.0-rc.5",
       "jsr:@cliffy/prompt@^1.0.0-rc.5": "jsr:@cliffy/prompt@1.0.0-rc.5",
+      "jsr:@cliffy/table@1.0.0-rc.5": "jsr:@cliffy/table@1.0.0-rc.5",
       "jsr:@cliffy/table@^1.0.0-rc.5": "jsr:@cliffy/table@1.0.0-rc.5",
+      "jsr:@justinmchase/github-api@^0.5.7": "jsr:@justinmchase/github-api@0.5.7",
+      "jsr:@justinmchase/serializable@^0.3.7": "jsr:@justinmchase/serializable@0.3.7",
+      "jsr:@justinmchase/type@^0.2.2": "jsr:@justinmchase/type@0.2.2",
       "jsr:@std/assert@1.0.0-rc.2": "jsr:@std/assert@1.0.0-rc.2",
+      "jsr:@std/async@^1.0.1": "jsr:@std/async@1.0.2",
+      "jsr:@std/async@^1.0.2": "jsr:@std/async@1.0.2",
       "jsr:@std/bytes@^1.0.1-rc.3": "jsr:@std/bytes@1.0.2",
       "jsr:@std/cli@1.0.0-rc.2": "jsr:@std/cli@1.0.0-rc.2",
       "jsr:@std/encoding@1.0.0-rc.2": "jsr:@std/encoding@1.0.0-rc.2",
       "jsr:@std/fmt@^0.225.6": "jsr:@std/fmt@0.225.6",
+      "jsr:@std/fmt@^1.0.0-rc.1": "jsr:@std/fmt@1.0.0",
       "jsr:@std/fmt@~0.225.4": "jsr:@std/fmt@0.225.6",
-      "jsr:@std/io@^0.224.3": "jsr:@std/io@0.224.3",
-      "jsr:@std/io@~0.224.2": "jsr:@std/io@0.224.3",
+      "jsr:@std/fs@^1.0.0-rc.5": "jsr:@std/fs@1.0.1",
+      "jsr:@std/io@^0.224.3": "jsr:@std/io@0.224.4",
+      "jsr:@std/io@~0.224.2": "jsr:@std/io@0.224.4",
+      "jsr:@std/log@^0.224.5": "jsr:@std/log@0.224.5",
       "jsr:@std/path@1.0.0-rc.2": "jsr:@std/path@1.0.0-rc.2",
       "jsr:@std/text@1.0.0-rc.1": "jsr:@std/text@1.0.0-rc.1",
-      "npm:@types/node": "npm:@types/node@18.16.19"
+      "npm:@types/node": "npm:@types/node@18.16.19",
+      "npm:ellipsize@0.5.1": "npm:ellipsize@0.5.1"
     },
     "jsr": {
       "@cliffy/ansi@1.0.0-rc.5": {
@@ -27,6 +39,22 @@
           "jsr:@cliffy/internal@1.0.0-rc.5",
           "jsr:@std/encoding@1.0.0-rc.2",
           "jsr:@std/io@~0.224.2"
+        ]
+      },
+      "@cliffy/command@1.0.0-rc.5": {
+        "integrity": "55e00a1d0ae38152fb275a89494a81ffb9b144eb9060107c0be5af46e1ba736c",
+        "dependencies": [
+          "jsr:@cliffy/flags@1.0.0-rc.5",
+          "jsr:@cliffy/internal@1.0.0-rc.5",
+          "jsr:@cliffy/table@1.0.0-rc.5",
+          "jsr:@std/fmt@~0.225.4",
+          "jsr:@std/text@1.0.0-rc.1"
+        ]
+      },
+      "@cliffy/flags@1.0.0-rc.5": {
+        "integrity": "bd33b7b399e0af353f5516d87a2d552d46ee7e7f4a6f0c0bc65fcce750710217",
+        "dependencies": [
+          "jsr:@std/text@1.0.0-rc.1"
         ]
       },
       "@cliffy/internal@1.0.0-rc.5": {
@@ -55,8 +83,31 @@
           "jsr:@std/fmt@~0.225.4"
         ]
       },
+      "@justinmchase/github-api@0.5.7": {
+        "integrity": "3d0d7e1d678e7dc6a60e831316ea68252652fc88a792d5b5485bf43b0a16a608",
+        "dependencies": [
+          "jsr:@justinmchase/serializable@^0.3.7",
+          "jsr:@std/async@^1.0.1",
+          "jsr:@std/log@^0.224.5"
+        ]
+      },
+      "@justinmchase/serializable@0.3.7": {
+        "integrity": "715613be6d1915d477b86d2ac31f2b96502d3ccc118867f0a011d3b5f043ce5c",
+        "dependencies": [
+          "jsr:@justinmchase/type@^0.2.2"
+        ]
+      },
+      "@justinmchase/type@0.2.2": {
+        "integrity": "475f943fb730fd9ced7055fdf28f11f2ba4369c2da6b540fdb49437155e8b91e"
+      },
       "@std/assert@1.0.0-rc.2": {
         "integrity": "0484eab1d76b55fca1c3beaff485a274e67dd3b9f065edcbe70030dfc0b964d3"
+      },
+      "@std/async@1.0.1": {
+        "integrity": "3c7f6324a8a1b47ca657e5a349b511c9a6c2c0729e9d66b223c9ecaac0753ecb"
+      },
+      "@std/async@1.0.2": {
+        "integrity": "36e7f0f922c843b45df546857d269f01ed4d0406aced2a6639eac325b2435e43"
       },
       "@std/bytes@1.0.2": {
         "integrity": "fbdee322bbd8c599a6af186a1603b3355e59a5fb1baa139f8f4c3c9a1b3e3d57"
@@ -70,10 +121,27 @@
       "@std/fmt@0.225.6": {
         "integrity": "aba6aea27f66813cecfd9484e074a9e9845782ab0685c030e453a8a70b37afc8"
       },
+      "@std/fmt@1.0.0": {
+        "integrity": "8a95c9fdbb61559418ccbc0f536080cf43341655e1444f9d375a66886ceaaa3d"
+      },
+      "@std/fs@1.0.1": {
+        "integrity": "d6914ca2c21abe591f733b31dbe6331e446815e513e2451b3b9e472daddfefcb"
+      },
       "@std/io@0.224.3": {
         "integrity": "b402edeb99c6b3778d9ae3e9927bc9085b170b41e5a09bbb7064ab2ee394ae2f",
         "dependencies": [
           "jsr:@std/bytes@^1.0.1-rc.3"
+        ]
+      },
+      "@std/io@0.224.4": {
+        "integrity": "bce1151765e4e70e376039fd72c71672b4d4aae363878a5ee3e58361b81197ec"
+      },
+      "@std/log@0.224.5": {
+        "integrity": "4612a45189438441bbd923a4cad1cce5c44c6c4a039195a3e8d831ce38894eee",
+        "dependencies": [
+          "jsr:@std/fmt@^1.0.0-rc.1",
+          "jsr:@std/fs@^1.0.0-rc.5",
+          "jsr:@std/io@^0.224.3"
         ]
       },
       "@std/path@1.0.0-rc.2": {
@@ -86,6 +154,10 @@
     "npm": {
       "@types/node@18.16.19": {
         "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
+      },
+      "ellipsize@0.5.1": {
+        "integrity": "sha512-0jEAyuIRU6U8MN0S5yUqIrkK/AQWkChh642N3zQuGV57s9bsUWYLc0jJOoDIUkZ2sbEL3ySq8xfq71BvG4q3hw==",
         "dependencies": {}
       }
     }
@@ -194,7 +266,8 @@
       "jsr:@cliffy/command@^1.0.0-rc.5",
       "jsr:@cliffy/prompt@^1.0.0-rc.5",
       "jsr:@cliffy/table@^1.0.0-rc.5",
-      "jsr:@justinmchase/github-api@^0.5.4",
+      "jsr:@justinmchase/github-api@^0.5.7",
+      "jsr:@std/async@^1.0.2",
       "jsr:@std/fmt@^0.225.6",
       "jsr:@std/io@^0.224.3"
     ]

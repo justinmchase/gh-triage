@@ -4,6 +4,9 @@ on:
       file: deno.jsonc
       pattern: '(?<="version": ").*(?=",)'
     - kind: regexp
+      file: main.ts
+      pattern: '(?<=version\(").*(?="\))'
+    - kind: regexp
       file: install.sh
-      pattern: '(?<=/gh-triage/).*(?=/.*)'
+      pattern: "(?<=/gh-triage/).*(?=/.*)"
       flags: g
