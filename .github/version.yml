@@ -1,0 +1,9 @@
+on:
+  post:
+    - kind: regexp
+      file: deno.jsonc
+      pattern: '(?<="version": ").*(?=",)'
+    - kind: regexp
+      file: install.sh
+      pattern: '(?<=/gh-triage/).*(?=/.*)'
+      flags: g

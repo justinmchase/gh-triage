@@ -1,0 +1,17 @@
+{
+  "name": "@justinmchase/gh-triage",
+  "version": "0.2.0",
+  "exports": "./main.ts",
+  "tasks": {
+    "check": "deno fmt && deno lint && deno test"
+  },
+  "imports": {
+    "@cliffy/ansi": "jsr:@cliffy/ansi@^1.0.0-rc.5",
+    "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.5",
+    "@cliffy/prompt": "jsr:@cliffy/prompt@^1.0.0-rc.5",
+    "@cliffy/table": "jsr:@cliffy/table@^1.0.0-rc.5",
+    "@justinmchase/github-api": "jsr:@justinmchase/github-api@^0.5.2",
+    "@std/fmt": "jsr:@std/fmt@^1.0.0-rc.1",
+    "@std/io": "jsr:@std/io@^0.224.3"
+  }
+}
