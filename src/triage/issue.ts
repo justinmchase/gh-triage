@@ -20,15 +20,17 @@ export async function issue(
   const number = parseInt(url.split("/").pop()!);
 
   // todo: fetch issue comment
-  const comment = reason !== "comment" ? undefined : await (async () => {
-    const number = parseInt(latest_comment_url.split("/").pop()!);
-    const comment = await api.repos.issues.comments.get({
-      client,
-      repository,
-      number,
-    });
-    return ellipsize(comment.body, 32);
-  })();
+  const [comment, commentNumber] = reason !== "comment"
+    ? [undefined, undefined]
+    : await (async () => {
+      const number = parseInt(latest_comment_url.split("/").pop()!);
+      const comment = await api.repos.issues.comments.get({
+        client,
+        repository,
+        number,
+      });
+      return [ellipsize(comment.body, 32) as string, number];
+    })();
 
   const table: Table = new Table()
     .border(true)
