@@ -7,3 +7,9 @@ An app for triaging github notifications
 ```sh
 curl -s https://raw.githubusercontent.com/justinmchase/gh-triage/0.1.3/install.sh -o- | bash
 ```
+
+## Usage
+
+```sh
+triage --watch
+```
