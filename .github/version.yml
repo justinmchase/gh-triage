@@ -4,9 +4,6 @@ on:
       file: deno.jsonc
       pattern: '(?<="version": ").*(?=",)'
     - kind: regexp
-      file: README.md
-      pattern: '(?<=/gh-triage/).*(?=/.*)'
-    - kind: regexp
       file: install.sh
       pattern: '(?<=/gh-triage/).*(?=/.*)'
       flags: g
