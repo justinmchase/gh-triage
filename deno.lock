@@ -16,6 +16,7 @@
       "jsr:@std/bytes@^1.0.1-rc.3": "jsr:@std/bytes@1.0.2",
       "jsr:@std/cli@1.0.0-rc.2": "jsr:@std/cli@1.0.0-rc.2",
       "jsr:@std/encoding@1.0.0-rc.2": "jsr:@std/encoding@1.0.0-rc.2",
+      "jsr:@std/fmt@^0.225.6": "jsr:@std/fmt@0.225.6",
       "jsr:@std/fmt@^1.0.0-rc.1": "jsr:@std/fmt@1.0.0-rc.1",
       "jsr:@std/fmt@~0.225.4": "jsr:@std/fmt@0.225.6",
       "jsr:@std/fs@^1.0.0-rc.5": "jsr:@std/fs@1.0.0",
@@ -235,7 +236,7 @@
       "jsr:@cliffy/prompt@^1.0.0-rc.5",
       "jsr:@cliffy/table@^1.0.0-rc.5",
       "jsr:@justinmchase/github-api@^0.5.3",
-      "jsr:@std/fmt@^1.0.0-rc.1",
+      "jsr:@std/fmt@^0.225.6",
       "jsr:@std/io@^0.224.3"
     ]
   }
