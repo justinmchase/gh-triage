@@ -5,6 +5,7 @@
   "tasks": {
     "check": "deno fmt && deno lint && deno test"
   },
+  "vendor": true,
   "imports": {
     "@cliffy/ansi": "jsr:@cliffy/ansi@^1.0.0-rc.5",
     "@cliffy/command": "jsr:@cliffy/command@^1.0.0-rc.5",

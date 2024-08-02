@@ -1,0 +1,1349 @@
+{
+  "manifest": {
+    "/reader_from_stream_reader_test.ts": {
+      "size": 2807,
+      "checksum": "sha256-506b8cb02d205a342de148bc52f2136c14a3b06577b0d378933fa4fcc913924e"
+    },
+    "/read_int_test.ts": {
+      "size": 473,
+      "checksum": "sha256-291b2159da1555a5631fd31bbf99acb6e920f6b1da59671ff7eeac78484b1732"
+    },
+    "/iterate_reader.ts": {
+      "size": 2598,
+      "checksum": "sha256-bd600cec818e66c8811d545edee54c05d1aa1b6f4ce05b053cb8cae1f8cd6206"
+    },
+    "/read_lines.ts": {
+      "size": 1415,
+      "checksum": "sha256-dd2652a86f0a3405677ae873feedc6a2953b823ffa2923158ee5f90751f4bf2d"
+    },
+    "/to_writable_stream.ts": {
+      "size": 1515,
+      "checksum": "sha256-55ca523a2446568059d105253d2186c9717b26ec80980a945ea19c44220a88b0"
+    },
+    "/read_range_test.ts": {
+      "size": 4061,
+      "checksum": "sha256-7335f6ce316a5213c205277ce90b921d26b6f443ec5918ef66759f15f10f625a"
+    },
+    "/read_short.ts": {
+      "size": 618,
+      "checksum": "sha256-f6dff570e685ade917dcb5188e8ecf0b701d6581b0cd186f08e6efe7f5ce33f7"
+    },
+    "/write_all.ts": {
+      "size": 1557,
+      "checksum": "sha256-2d77ce97a7956b0f1fb8e2fb863af260a5d7b2dfed5e8c4cf77a85cc2311ce73"
+    },
+    "/string_reader.ts": {
+      "size": 971,
+      "checksum": "sha256-5a0a92f25c2e7a2e9722802135e3bcdb24455742fe3242507c2dac5bdb2d11e5"
+    },
+    "/buffer.ts": {
+      "size": 8516,
+      "checksum": "sha256-cdc9e05d0b41b63b73d62ba0ca4ae9259418f6c3d587eb155d278348e046fe34"
+    },
+    "/buf_reader.ts": {
+      "size": 13303,
+      "checksum": "sha256-642767f4508a96eea58adc262a927870a31a56313fc3add487b9e96e555afb4c"
+    },
+    "/read_short_test.ts": {
+      "size": 469,
+      "checksum": "sha256-232b848da20edff4b90957898aa83d0e6d40ef05fc3192e588516998f0a154ec"
+    },
+    "/read_int.ts": {
+      "size": 664,
+      "checksum": "sha256-2412f106103a271f5d770b2a61c97b13eebcd18de414a0a092ed82dfcb875903"
+    },
+    "/copy_test.ts": {
+      "size": 683,
+      "checksum": "sha256-cca8df2576fd530c8d35afe014f4ff20f2f34e99bc00f8ba61bc30366c0b4422"
+    },
+    "/string_reader_test.ts": {
+      "size": 1156,
+      "checksum": "sha256-939cd351b69183f5175fe8584ae964c0aebc050414cea8c8cef59264ef717fed"
+    },
+    "/to_readable_stream.ts": {
+      "size": 2205,
+      "checksum": "sha256-0b6699fb2ecdd9309206d59a9112b567f60c4ef1833752d4187d599e38caf5f1"
+    },
+    "/read_all_test.ts": {
+      "size": 719,
+      "checksum": "sha256-1d936420147c34f56a792b32ef7fc64d817e81ebbbcabd10d3d51e4303a593ef"
+    },
+    "/iterate_reader_test.ts": {
+      "size": 2998,
+      "checksum": "sha256-2e1bfda2d40c3a1bfe6737c3c43b09896ed5996679594bfc0227d12a8135c036"
+    },
+    "/string_writer_test.ts": {
+      "size": 1220,
+      "checksum": "sha256-ae66f5fe7235a7624f131f5d477abec60116e851a7feb4b5fb108e4d70073502"
+    },
+    "/slice_long_to_bytes_test.ts": {
+      "size": 877,
+      "checksum": "sha256-7c6ed4bdad71e44e8be0743a6e81cf64e6076e024ae71fc3d1500a0aee37c92f"
+    },
+    "/limited_reader_test.ts": {
+      "size": 1239,
+      "checksum": "sha256-0aedf1bd1ce2e87e57b4518b5776f275e8f2b14fdedf05feddd23f6bbae52f21"
+    },
+    "/read_all.ts": {
+      "size": 1894,
+      "checksum": "sha256-23c0be4f03a99767043f2f3b25f5dce6bac6c44ef6aee17c0dd7a00336cc56f5"
+    },
+    "/copy_n_test.ts": {
+      "size": 1184,
+      "checksum": "sha256-bf31618e261fffc1c4905b648b06638ab999017201c4b96c1e4247449acccbc0"
+    },
+    "/testdata/copy-src.txt": {
+      "size": 131072,
+      "checksum": "sha256-e311a2ca9cf1d7d1fb891cf7b07c5fd0b74df0a6c8d82d5148d2a6a4fb6e0a9b"
+    },
+    "/multi_reader.ts": {
+      "size": 805,
+      "checksum": "sha256-dd8f06d50adec0e1befb92a1d354fcf28733a4b1669b23bf534ace161ce61b1c"
+    },
+    "/read_string_delim.ts": {
+      "size": 1186,
+      "checksum": "sha256-5979bc75fc802ec5fe34836599177eb9e03fec38496a6d684b28571ae5c90145"
+    },
+    "/read_delim.ts": {
+      "size": 2347,
+      "checksum": "sha256-88779451217521034456ee321306aae13f3adc02087f6a993bcd616d62585b8f"
+    },
+    "/to_writable_stream_test.ts": {
+      "size": 3200,
+      "checksum": "sha256-18ba6945daad1745f3350450b9e5605bfe153d630bbf31b80d894342ac7fdd08"
+    },
+    "/copy_n.ts": {
+      "size": 1178,
+      "checksum": "sha256-b2c87aff48468ec793e68dca1537b8d875b0dfea43dc19a3ede496fa304dae61"
+    },
+    "/testdata/iso-8859-15.txt": {
+      "size": 203,
+      "checksum": "sha256-da772430df63997d9acdb3e727a10ed55210c1c80bc89420312fcf78a3d6c055"
+    },
+    "/_test_common.ts": {
+      "size": 880,
+      "checksum": "sha256-f3f6542d4c93c13bf0baee0d3c9f14da7020c2e8b7a4ee0286a0e43d9c22dd22"
+    },
+    "/buf_reader_test.ts": {
+      "size": 12414,
+      "checksum": "sha256-700953a1ca0de1db2341d1dc12ea1c556e954a67133012fd0f523e50d3c65ffa"
+    },
+    "/_constants.ts": {
+      "size": 202,
+      "checksum": "sha256-3c7ad4695832e6e4a32e35f218c70376b62bc78621ef069a4a0a3d55739f8856"
+    },
+    "/copy.ts": {
+      "size": 1445,
+      "checksum": "sha256-578c68959575333b6aaac52686e92ee97a9bcc655ad2d40830c76fa233d9bb8b"
+    },
+    "/multi_reader_test.ts": {
+      "size": 676,
+      "checksum": "sha256-c91fa182edfd57513d03125a1b3d50c38913942f858b2311fb0d9d895c7a4ecb"
+    },
+    "/limited_reader.ts": {
+      "size": 1096,
+      "checksum": "sha256-feaff659ece590e88f58d506989e2c49ada07736429337a003a670475d83c3c5"
+    },
+    "/string_writer.ts": {
+      "size": 1830,
+      "checksum": "sha256-341fa2030da02cee917efbcb6c51b731fd4adc9e5d1a1be29039bf5a23ec0795"
+    },
+    "/slice_long_to_bytes.ts": {
+      "size": 638,
+      "checksum": "sha256-bc59a7aaac64845371dbd44debf3e864ae7b7e453127751d96e30adb29fb633b"
+    },
+    "/read_lines_test.ts": {
+      "size": 2630,
+      "checksum": "sha256-c57c348bb030a55ddf3b6bccb279ebc2d9a90c5a69e579026c992357ec9b984f"
+    },
+    "/reader_from_stream_reader.ts": {
+      "size": 1151,
+      "checksum": "sha256-b30bd9fc5e41ada8941218322c9e58ecc03f8e851db989197004466e94bfb437"
+    },
+    "/read_long_test.ts": {
+      "size": 742,
+      "checksum": "sha256-b4ad0939deebd2edecdc0f471e5497fecd68caa9eabed91b3d25a716e2eeb616"
+    },
+    "/read_long.ts": {
+      "size": 970,
+      "checksum": "sha256-d7cd367ab5c1263014c32a76afa0f0584c3bf3a3d860963c7368a6825094df46"
+    },
+    "/types.ts": {
+      "size": 4209,
+      "checksum": "sha256-191814184879d0128788218813c08a05b16b9d1a672619891b6279bb32a1dcba"
+    },
+    "/write_all_test.ts": {
+      "size": 752,
+      "checksum": "sha256-ff96cc96095a399a44dbd727da87170a9a9898283ded583aa010aba1d0e11943"
+    },
+    "/read_string_delim_test.ts": {
+      "size": 1623,
+      "checksum": "sha256-a8d295ffe99a15c3b9eab25f6d2dd4b799a99ed352c5c0ed9068f4b1b65aee51"
+    },
+    "/mod.ts": {
+      "size": 1155,
+      "checksum": "sha256-f0a3f9d419394cec27099ba15ab0c8100da1e70928f95ebe646caaf667c6870c"
+    },
+    "/_common.ts": {
+      "size": 429,
+      "checksum": "sha256-36705cdb4dfcd338d6131bca1b16e48a4d5bf0d1dada6ce397268e88c17a5835"
+    },
+    "/buf_writer.ts": {
+      "size": 7131,
+      "checksum": "sha256-6137de79ce7c7e9bb43850236ae3cd587876539fbb93f6ef5fc0bb428659e164"
+    },
+    "/buffer_test.ts": {
+      "size": 10905,
+      "checksum": "sha256-c4271a9dfeba4cb849f6bd6197a651095299fa34717570688cb7dd3fb046334e"
+    },
+    "/read_range.ts": {
+      "size": 3738,
+      "checksum": "sha256-d7043b9034f8fa7759af9a24d2f218eb10572f20b9954b4b062717065e37a0ba"
+    },
+    "/deno.json": {
+      "size": 1100,
+      "checksum": "sha256-b05aba46ffc4ed1a7607833099b14182d376c7b1e219c3d1600c454c1ea42b9a"
+    },
+    "/buf_writer_test.ts": {
+      "size": 4788,
+      "checksum": "sha256-fc925b8b2db7c260fe72d764ce2aca60f4d46efe01db4b8cef35d7e9ea6db9a9"
+    },
+    "/to_readable_stream_test.ts": {
+      "size": 2948,
+      "checksum": "sha256-cfbccdf7a28af4fc94568895777199203cdaee77948f675d3b9f4c39303b310c"
+    }
+  },
+  "moduleGraph2": {
+    "/limited_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              9,
+              28
+            ],
+            [
+              9,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_lines.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              40
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./buf_reader.ts",
+          "specifierRange": [
+            [
+              4,
+              26
+            ],
+            [
+              4,
+              43
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/concat",
+          "specifierRange": [
+            [
+              5,
+              23
+            ],
+            [
+              5,
+              59
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_all.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/concat",
+          "specifierRange": [
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_constants.ts",
+          "specifierRange": [
+            [
+              4,
+              35
+            ],
+            [
+              4,
+              52
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              5,
+              40
+            ],
+            [
+              5,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/slice_long_to_bytes.ts": {},
+    "/read_range.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/copy",
+          "specifierRange": [
+            [
+              2,
+              34
+            ],
+            [
+              2,
+              68
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              40
+            ],
+            [
+              3,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/types.ts": {},
+    "/reader_from_stream_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./buffer.ts",
+          "specifierRange": [
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              36
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./write_all.ts",
+          "specifierRange": [
+            [
+              4,
+              25
+            ],
+            [
+              4,
+              41
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              5,
+              28
+            ],
+            [
+              5,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/copy.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_constants.ts",
+          "specifierRange": [
+            [
+              3,
+              36
+            ],
+            [
+              3,
+              53
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              36
+            ],
+            [
+              4,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_delim.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/concat",
+          "specifierRange": [
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              59
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              28
+            ],
+            [
+              4,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/_common.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/buf_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/copy",
+          "specifierRange": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              28
+            ],
+            [
+              4,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/mod.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./buf_reader.ts",
+          "specifierRange": [
+            [
+              11,
+              14
+            ],
+            [
+              11,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./buf_writer.ts",
+          "specifierRange": [
+            [
+              12,
+              14
+            ],
+            [
+              12,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./buffer.ts",
+          "specifierRange": [
+            [
+              13,
+              14
+            ],
+            [
+              13,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./copy.ts",
+          "specifierRange": [
+            [
+              14,
+              14
+            ],
+            [
+              14,
+              25
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./copy_n.ts",
+          "specifierRange": [
+            [
+              15,
+              14
+            ],
+            [
+              15,
+              27
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./iterate_reader.ts",
+          "specifierRange": [
+            [
+              16,
+              14
+            ],
+            [
+              16,
+              35
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./limited_reader.ts",
+          "specifierRange": [
+            [
+              17,
+              14
+            ],
+            [
+              17,
+              35
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./multi_reader.ts",
+          "specifierRange": [
+            [
+              18,
+              14
+            ],
+            [
+              18,
+              33
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_all.ts",
+          "specifierRange": [
+            [
+              19,
+              14
+            ],
+            [
+              19,
+              29
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_delim.ts",
+          "specifierRange": [
+            [
+              20,
+              14
+            ],
+            [
+              20,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_int.ts",
+          "specifierRange": [
+            [
+              21,
+              14
+            ],
+            [
+              21,
+              29
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_lines.ts",
+          "specifierRange": [
+            [
+              22,
+              14
+            ],
+            [
+              22,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_long.ts",
+          "specifierRange": [
+            [
+              23,
+              14
+            ],
+            [
+              23,
+              30
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_range.ts",
+          "specifierRange": [
+            [
+              24,
+              14
+            ],
+            [
+              24,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_short.ts",
+          "specifierRange": [
+            [
+              25,
+              14
+            ],
+            [
+              25,
+              31
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./read_string_delim.ts",
+          "specifierRange": [
+            [
+              26,
+              14
+            ],
+            [
+              26,
+              38
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./reader_from_stream_reader.ts",
+          "specifierRange": [
+            [
+              27,
+              14
+            ],
+            [
+              27,
+              46
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./slice_long_to_bytes.ts",
+          "specifierRange": [
+            [
+              28,
+              14
+            ],
+            [
+              28,
+              40
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./string_reader.ts",
+          "specifierRange": [
+            [
+              29,
+              14
+            ],
+            [
+              29,
+              34
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./string_writer.ts",
+          "specifierRange": [
+            [
+              30,
+              14
+            ],
+            [
+              30,
+              34
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./to_readable_stream.ts",
+          "specifierRange": [
+            [
+              31,
+              14
+            ],
+            [
+              31,
+              39
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./to_writable_stream.ts",
+          "specifierRange": [
+            [
+              32,
+              14
+            ],
+            [
+              32,
+              39
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              33,
+              14
+            ],
+            [
+              33,
+              26
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "export",
+          "specifier": "./write_all.ts",
+          "specifierRange": [
+            [
+              34,
+              14
+            ],
+            [
+              34,
+              30
+            ]
+          ]
+        }
+      ]
+    },
+    "/buf_writer.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/copy",
+          "specifierRange": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              40
+            ],
+            [
+              4,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/buffer.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/bytes@^1.0.1-rc.3/copy",
+          "specifierRange": [
+            [
+              3,
+              21
+            ],
+            [
+              3,
+              55
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              60
+            ],
+            [
+              4,
+              72
+            ]
+          ]
+        }
+      ]
+    },
+    "/iterate_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_constants.ts",
+          "specifierRange": [
+            [
+              3,
+              36
+            ],
+            [
+              3,
+              53
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              40
+            ],
+            [
+              4,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/string_writer.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              40
+            ],
+            [
+              3,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/to_readable_stream.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_constants.ts",
+          "specifierRange": [
+            [
+              3,
+              35
+            ],
+            [
+              3,
+              52
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_common.ts",
+          "specifierRange": [
+            [
+              4,
+              25
+            ],
+            [
+              4,
+              39
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              5,
+              36
+            ],
+            [
+              5,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_int.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./buf_reader.ts",
+          "specifierRange": [
+            [
+              2,
+              31
+            ],
+            [
+              2,
+              48
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./read_short.ts",
+          "specifierRange": [
+            [
+              3,
+              26
+            ],
+            [
+              3,
+              43
+            ]
+          ]
+        }
+      ]
+    },
+    "/_constants.ts": {},
+    "/to_writable_stream.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./write_all.ts",
+          "specifierRange": [
+            [
+              3,
+              25
+            ],
+            [
+              3,
+              41
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              4,
+              28
+            ],
+            [
+              4,
+              40
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./_common.ts",
+          "specifierRange": [
+            [
+              5,
+              25
+            ],
+            [
+              5,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_long.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./buf_reader.ts",
+          "specifierRange": [
+            [
+              2,
+              31
+            ],
+            [
+              2,
+              48
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./read_int.ts",
+          "specifierRange": [
+            [
+              3,
+              24
+            ],
+            [
+              3,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "/multi_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              40
+            ]
+          ]
+        }
+      ]
+    },
+    "/string_reader.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./buffer.ts",
+          "specifierRange": [
+            [
+              3,
+              23
+            ],
+            [
+              3,
+              36
+            ]
+          ]
+        }
+      ]
+    },
+    "/copy_n.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              36
+            ],
+            [
+              3,
+              48
+            ]
+          ]
+        }
+      ]
+    },
+    "/write_all.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              40
+            ],
+            [
+              3,
+              52
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_string_delim.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./types.ts",
+          "specifierRange": [
+            [
+              3,
+              28
+            ],
+            [
+              3,
+              40
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./read_delim.ts",
+          "specifierRange": [
+            [
+              4,
+              26
+            ],
+            [
+              4,
+              43
+            ]
+          ]
+        }
+      ]
+    },
+    "/read_short.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./buf_reader.ts",
+          "specifierRange": [
+            [
+              2,
+              31
+            ],
+            [
+              2,
+              48
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    ".": "./mod.ts",
+    "./buf-reader": "./buf_reader.ts",
+    "./buf-writer": "./buf_writer.ts",
+    "./buffer": "./buffer.ts",
+    "./copy": "./copy.ts",
+    "./copy-n": "./copy_n.ts",
+    "./iterate-reader": "./iterate_reader.ts",
+    "./limited-reader": "./limited_reader.ts",
+    "./multi-reader": "./multi_reader.ts",
+    "./read-all": "./read_all.ts",
+    "./read-delim": "./read_delim.ts",
+    "./read-int": "./read_int.ts",
+    "./read-lines": "./read_lines.ts",
+    "./read-long": "./read_long.ts",
+    "./read-range": "./read_range.ts",
+    "./read-short": "./read_short.ts",
+    "./read-string-delim": "./read_string_delim.ts",
+    "./reader-from-stream-reader": "./reader_from_stream_reader.ts",
+    "./slice-long-to-bytes": "./slice_long_to_bytes.ts",
+    "./string-reader": "./string_reader.ts",
+    "./string-writer": "./string_writer.ts",
+    "./to-readable-stream": "./to_readable_stream.ts",
+    "./to-writable-stream": "./to_writable_stream.ts",
+    "./types": "./types.ts",
+    "./write-all": "./write_all.ts"
+  }
+}

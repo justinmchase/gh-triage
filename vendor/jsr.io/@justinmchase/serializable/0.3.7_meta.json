@@ -1,0 +1,80 @@
+{
+  "manifest": {
+    "/.github/workflows/publish.yml": {
+      "size": 234,
+      "checksum": "sha256-35cb67714b4a2a182279162ea46295cd535aef3acfa4a1bf60296f55c9cce0ef"
+    },
+    "/.github/release-drafter.yml": {
+      "size": 539,
+      "checksum": "sha256-d5dbb8aa62431be81c81e97f3fe4a6543d1d22c629a4c8b7158a27b7c46f7607"
+    },
+    "/README.md": {
+      "size": 464,
+      "checksum": "sha256-a46a778e9fef5fc2b14712e1d113f7582c38630bd7343743b41c3d94e9e7d04b"
+    },
+    "/deno.lock": {
+      "size": 5685,
+      "checksum": "sha256-6c2ed2d3a6d655115077f3673913b4a033d5180bcc63a9010d9dde927ef44475"
+    },
+    "/VERSION": {
+      "size": 6,
+      "checksum": "sha256-2e376439ec341f14ae018b8aa4796b9336702e6a59d6c42b91f61d84baac9807"
+    },
+    "/LICENSE": {
+      "size": 1069,
+      "checksum": "sha256-dd696a201a50ea5388484068dae040973449c1cfdfcf2064df7980aeb9499abc"
+    },
+    "/.vscode/settings.json": {
+      "size": 51,
+      "checksum": "sha256-e673accba99c5b24fe7c6de6fbff7b75f9a8de3a31b04e015995c7a3ec4e7d4a"
+    },
+    "/test.ts": {
+      "size": 2581,
+      "checksum": "sha256-f085e85ae3e8983b4d056eb6d82222f96ba792ce46281955f6a8e253401409df"
+    },
+    "/.github/version.yml": {
+      "size": 97,
+      "checksum": "sha256-ca05f664c510f5ef6652ef7727bc98b50f118ab52c1eca5c4a13ae2131f499a3"
+    },
+    "/deno.jsonc": {
+      "size": 339,
+      "checksum": "sha256-f8fea1ce8b2a377c917d9d557db146cc6a235c2673ad5d6fb95faf08fff88121"
+    },
+    "/.github/workflows/release-drafter.yml": {
+      "size": 1954,
+      "checksum": "sha256-8b3fcfdd8d76cb0cd84aa97ffd9dacce6fcc175136fa7c0b13cdd4deb2c58fd0"
+    },
+    "/.github/workflows/check.yml": {
+      "size": 553,
+      "checksum": "sha256-71bcc29ec30c1385d60ac096cd12a4dcf1510e86f0a9e29898739ba3f3e0fb21"
+    },
+    "/mod.ts": {
+      "size": 1703,
+      "checksum": "sha256-0e5a05c515dcbffba74b8549c364a68728dab5ff630aa2974960ed3ea463fe44"
+    }
+  },
+  "moduleGraph2": {
+    "/mod.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:@justinmchase/type@^0.2.2",
+          "specifierRange": [
+            [
+              0,
+              27
+            ],
+            [
+              0,
+              58
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    ".": "./mod.ts"
+  }
+}

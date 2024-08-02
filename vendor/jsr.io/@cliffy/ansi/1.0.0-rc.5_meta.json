@@ -1,0 +1,359 @@
+{
+  "manifest": {
+    "/ansi.ts": {
+      "size": 2756,
+      "checksum": "sha256-d98de9412ea497afd6c293287af14e9b07d485042b3a082193311306b2d272e1"
+    },
+    "/tty_test.ts": {
+      "size": 633,
+      "checksum": "sha256-e5a0acc475222bcb58c339b51b03e71be0336e0c64afef7bafde69c8e1dc6ee5"
+    },
+    "/colors_test.ts": {
+      "size": 1129,
+      "checksum": "sha256-d839d30ceaa7309d7ab5706925bc94adfe266d85743d1356e0b384af1a0bc2c6"
+    },
+    "/deno.json": {
+      "size": 245,
+      "checksum": "sha256-ee254df2c366daa1c6dc6de76c292cd59f3150aaf69fa8d6220940603462b898"
+    },
+    "/ansi_escapes_test.ts": {
+      "size": 3096,
+      "checksum": "sha256-7aa4004dd83b83b00591ce8ed483a83ad3791e7ea2a9df8116b356b970d5c2a2"
+    },
+    "/ansi_escapes.ts": {
+      "size": 5636,
+      "checksum": "sha256-ad990f2f6ece05b77981befef613012477274836e92ab34c64c3aa254b4bd4bb"
+    },
+    "/ansi_test.ts": {
+      "size": 912,
+      "checksum": "sha256-e4f5ae82937377503b55ab441e03573b32183732add1a6422c5d61ff2111b677"
+    },
+    "/tty.ts": {
+      "size": 3078,
+      "checksum": "sha256-44c3f67c0a6276421f0ca709dddb2026dde9f99c74711667b99bd34a392697cd"
+    },
+    "/assets/img/demo.gif": {
+      "size": 43997,
+      "checksum": "sha256-2f8f78d351565a144249cbff97a34d8166d55e00757742ca3e92dbae1defd000"
+    },
+    "/README.md": {
+      "size": 1640,
+      "checksum": "sha256-98c542bd9d1f3f7d28736760ea2bd90fdb77c7a402fce7a1f4ea8c20c4e2181e"
+    },
+    "/colors.ts": {
+      "size": 2387,
+      "checksum": "sha256-037ab60e30ea63caecd7f636c1d92d83edb8d393c6ad2ed34837f15c64ddcf25"
+    },
+    "/chain.ts": {
+      "size": 3772,
+      "checksum": "sha256-da8cfa7935a22ca5aa7b62bbc3ee8ca8fbb69f5f8c7727e22aaef760c71fdfe8"
+    },
+    "/cursor_position.ts": {
+      "size": 1404,
+      "checksum": "sha256-2d29f6259f57977f5f6d88b7da041c8beff391aaf28ceec5448c32929eb715d4"
+    }
+  },
+  "moduleGraph2": {
+    "/cursor_position.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/read-sync",
+          "specifierRange": [
+            [
+              0,
+              25
+            ],
+            [
+              0,
+              77
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/set-raw",
+          "specifierRange": [
+            [
+              1,
+              23
+            ],
+            [
+              1,
+              73
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/write-sync",
+          "specifierRange": [
+            [
+              2,
+              26
+            ],
+            [
+              2,
+              79
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ansi_escapes.ts",
+          "specifierRange": [
+            [
+              3,
+              31
+            ],
+            [
+              3,
+              50
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "jsr:/@std/io@~0.224.2/types",
+          "specifierRange": [
+            [
+              4,
+              44
+            ],
+            [
+              4,
+              73
+            ]
+          ]
+        }
+      ]
+    },
+    "/tty.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/read-sync",
+          "specifierRange": [
+            [
+              0,
+              25
+            ],
+            [
+              0,
+              77
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/set-raw",
+          "specifierRange": [
+            [
+              1,
+              23
+            ],
+            [
+              1,
+              73
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/write-sync",
+          "specifierRange": [
+            [
+              2,
+              26
+            ],
+            [
+              2,
+              79
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ansi_escapes.ts",
+          "specifierRange": [
+            [
+              3,
+              29
+            ],
+            [
+              3,
+              48
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./chain.ts",
+          "specifierRange": [
+            [
+              4,
+              27
+            ],
+            [
+              4,
+              39
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./cursor_position.ts",
+          "specifierRange": [
+            [
+              5,
+              47
+            ],
+            [
+              5,
+              69
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "jsr:/@std/io@~0.224.2/types",
+          "specifierRange": [
+            [
+              6,
+              44
+            ],
+            [
+              6,
+              73
+            ]
+          ]
+        }
+      ]
+    },
+    "/ansi_escapes.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/encoding@1.0.0-rc.2/base64",
+          "specifierRange": [
+            [
+              0,
+              29
+            ],
+            [
+              0,
+              67
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@cliffy/internal@1.0.0-rc.5/runtime/get-os",
+          "specifierRange": [
+            [
+              1,
+              22
+            ],
+            [
+              1,
+              71
+            ]
+          ]
+        }
+      ]
+    },
+    "/ansi.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "./ansi_escapes.ts",
+          "specifierRange": [
+            [
+              0,
+              29
+            ],
+            [
+              0,
+              48
+            ]
+          ]
+        },
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./chain.ts",
+          "specifierRange": [
+            [
+              1,
+              27
+            ],
+            [
+              1,
+              39
+            ]
+          ]
+        }
+      ]
+    },
+    "/colors.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "import",
+          "specifier": "jsr:/@std/fmt@~0.225.4/colors",
+          "specifierRange": [
+            [
+              0,
+              27
+            ],
+            [
+              0,
+              58
+            ]
+          ]
+        }
+      ]
+    },
+    "/chain.ts": {
+      "dependencies": [
+        {
+          "type": "static",
+          "kind": "importType",
+          "specifier": "./ansi_escapes.ts",
+          "specifierRange": [
+            [
+              1,
+              34
+            ],
+            [
+              1,
+              53
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "exports": {
+    ".": "./ansi.ts",
+    "./ansi-escapes": "./ansi_escapes.ts",
+    "./colors": "./colors.ts",
+    "./cursor-position": "./cursor_position.ts",
+    "./tty": "./tty.ts"
+  }
+}

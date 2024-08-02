@@ -1,0 +1,9 @@
+{
+  "scope": "justinmchase",
+  "name": "github-api",
+  "latest": "0.5.3",
+  "versions": {
+    "0.5.2": {},
+    "0.5.3": {}
+  }
+}
