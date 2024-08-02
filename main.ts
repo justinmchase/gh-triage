@@ -2,11 +2,11 @@ import { api, GitHubClient } from "@justinmchase/github-api";
 import { prompt, Select } from "@cliffy/prompt";
 import { yellow } from "@std/fmt/colors";
 import {
+  checkSuite,
   issue,
   pullRequest,
-  release,
-  checkSuite,
   type PullRequestDismissClosed,
+  release,
 } from "./triage/mod.ts";
 
 const cmd = new Deno.Command("gh", { args: ["auth", "token"] });

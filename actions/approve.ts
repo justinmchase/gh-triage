@@ -14,7 +14,9 @@ export async function approve(
   const { id: threadId, repository } = notification;
   const body = await Input.prompt({
     message: "Review message",
-    default: "Looks good to me!",
+    default: pr.user.login === "dependabot[bot]"
+      ? "@dependabot merge"
+      : "Looks good to me!",
   });
   await api.repos.pulls.reviews.create({
     client,
