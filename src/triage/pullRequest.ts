@@ -8,7 +8,6 @@ import type {
 import { Select } from "@cliffy/prompt";
 import { Column, Table } from "@cliffy/table";
 import {
-  black,
   blue,
   brightBlack,
   brightRed,
@@ -46,7 +45,9 @@ export async function pullRequest(
     : merged
     ? green("merged")
     : red("closed");
-  const repo = `${black(repository.owner.login)}/${magenta(repository.name)}`;
+  const repo = `${brightBlack(repository.owner.login)}/${
+    magenta(repository.name)
+  }`;
   if (dismissClosed === "dismiss" && pr.state === "closed") {
     await api.notifications.thread.done({
       client,
